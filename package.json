@@ -1,0 +1,23 @@
+{
+  "name": "incluencity-test",
+  "version": "1.0.0",
+  "description": "Coding test for Influencity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jverfr1/Influencity-test.git"
+  },
+  "author": "Jonathan Verón",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/jverfr1/Influencity-test/issues"
+  },
+  "homepage": "https://github.com/jverfr1/Influencity-test#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
+}
