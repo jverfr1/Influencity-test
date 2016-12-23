@@ -11,9 +11,7 @@ function getInfo(res,userId) {
 		tweets: 'a[data-nav="tweets"] span.ProfileNav-value',
 		following_count: 'a[data-nav="following"] span.ProfileNav-value',
 		followers_count: 'a[data-nav="followers"] span.ProfileNav-value',
-		// bio: x('div.ProfileHeaderCard', [{
-		// 	text: 'p.ProfileHeaderCard-bio'
-		// }])
+		bio: '.ProfileHeaderCard-bio'
 		})((err, response)=> {
 			res.status(200).send({data: response});
 	});
